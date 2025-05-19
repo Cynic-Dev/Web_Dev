@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Mokoto";
+    src: url(MokotoDemo.ttf);
+}
+
+@font-face {
+    font-family: Norwester;
+    src: url(norwester.otf);
+}
+
+
+body{
+    background-image: url("images/gym-bg.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.title-head{
+    color: white;
+    text-align: center;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    padding: 3px 0;
+    font-size: 20px;
+    font-family: Mokoto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-container{
+    background-color: rgba(120, 120, 120, 0.2);
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.left-container-content{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan{
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 15px;
+    font-family: Mokoto;
+}
+
+.glitch{
+    color: #52ff00;
+}
+
+.motivational-quote{
+    margin-top: 80px;
+    font-family: Norwester;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button{
+    text-align: center;
+}
+
+.shop_button{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Norwester;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button :hover{
+    background-color: transparent;
+    color: white;
+}
+
+.right-container{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.right-container-content{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.website-description{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Mokoto;
+}
+
+.website-description p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.image-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gymwhale-image{
+    max-width: 100px;
+    max-height: 200px;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
